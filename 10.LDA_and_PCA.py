@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-# 10.A LDA
-
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
@@ -91,10 +83,3 @@ plt.ylabel("Principal Component 2")
 
 plt.title("PCA of Iris Dataset (sklearn Implementation)")
 plt.show()
-
-
-# In[ ]:
-
-
-
-
