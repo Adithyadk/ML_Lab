@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # 5. KNN Classifier - Glass Dataset
 
 import numpy as np
@@ -97,10 +91,3 @@ plt.xlabel('Predicted')
 plt.ylabel('Actual')
 plt.title('Confusion Matrix Heatmap (Manhattan Distance)')
 plt.show()
-
-
-# In[ ]:
-
-
-
-
