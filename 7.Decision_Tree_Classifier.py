@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split, cross_val_score
@@ -79,10 +73,3 @@ print(f"Classification Report:\n{report_cart}")
 cv_scores_cart = cross_val_score(clf_cart, X_encoded, y, cv=5)
 print("Cross-Validation Scores (CART):", cv_scores_cart)
 print("Mean CV Accuracy (CART):", cv_scores_cart.mean())
-
-
-# In[ ]:
-
-
-
-
