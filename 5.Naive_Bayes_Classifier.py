@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # 4. Naive Bayes Classifier - Titanic Dataset
 
 import numpy as np
@@ -70,10 +64,3 @@ plt.xlabel('Predicted')
 plt.ylabel('Actual')
 plt.title('Confusion Matrix Heatmap')
 plt.show()
-
-
-# In[ ]:
-
-
-
-
