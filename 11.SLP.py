@@ -1,4 +1,4 @@
-# Without using keras
+# SLP
 
 import numpy as np
 
