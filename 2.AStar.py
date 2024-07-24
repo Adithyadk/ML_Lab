@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # 2. A-Star Algorithm
 
 def h(n):
@@ -75,10 +69,3 @@ graph = {
 }
 
 a_star_algorithm(graph, 'S', 'G')
-
-
-# In[ ]:
-
-
-
-
