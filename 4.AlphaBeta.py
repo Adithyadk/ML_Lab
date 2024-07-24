@@ -1,3 +1,5 @@
+# 4.Alpha-Beta Pruning
+
 def alpha_beta(depth, nodeIndex, maximizingPlayer, values, alpha, beta, path):
     if depth == 3:
         return values[nodeIndex], path + [nodeIndex]
@@ -36,7 +38,6 @@ def alpha_beta(depth, nodeIndex, maximizingPlayer, values, alpha, beta, path):
 
 # Example tree with depth 3 and 8 terminal nodes
 values = [3, 5, 2, 9, 12, 5, 23, 23]
-
 # Start the Min-Max algorithm
 optimal_value, optimal_path = alpha_beta(0, 0, True, values, float('-inf'), float('inf'), [])
 print("The optimal value is:", optimal_value)
