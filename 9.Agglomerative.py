@@ -1,3 +1,5 @@
+# 9. Agglomerative Clustering
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.cluster.hierarchy import dendrogram, linkage
