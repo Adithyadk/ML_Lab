@@ -1,8 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
+# KMeans Clustering
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -74,10 +70,3 @@ plt.title('Confusion Matrix')
 plt.show()
 
 print("The accuracy is: ", accuracy_score(y,labels))
-
-
-# In[ ]:
-
-
-
-
