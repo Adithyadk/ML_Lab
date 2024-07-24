@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 # 3-D Plot
 
 import pandas as pd
@@ -19,10 +13,6 @@ ax.plot_trisurf(x,y,z,cmap="jet")
 ax.set_title("3D Surface Plot")
 
 plt.show()
-
-
-# In[3]:
-
 
 # Contour Plot
 
@@ -42,10 +32,6 @@ plt.ylabel('Weight')
 plt.title('Contour Plot')
 plt.show()
 
-
-# In[4]:
-
-
 # Heatmap
 
 import pandas as pd
@@ -56,9 +42,6 @@ data=pd.read_csv("./ToyotaCorolla.csv")
 
 sns.heatmap(data[["Price","KM","Doors", "Weight"]].corr(),annot=True,cmap='jet')
 plt.show()
-
-
-# In[5]:
 
 
 # Box Plot
@@ -73,10 +56,3 @@ plt.boxplot([data["Price"],data["HP"],data["KM"]])
 plt.xticks([1,2,3],["Price","HP","KM"])
 
 plt.show()
-
-
-# In[ ]:
-
-
-
-
