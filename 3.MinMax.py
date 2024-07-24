@@ -1,3 +1,5 @@
+# 3.Min-Max Algorithm
+
 def minmax(depth, nodeIndex, maximizingPlayer, values, alpha, beta, path):
     if depth == 3:
         return values[nodeIndex], path + [nodeIndex]
