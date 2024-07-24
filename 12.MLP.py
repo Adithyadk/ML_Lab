@@ -1,4 +1,4 @@
-# Without using keras
+# 12.MLP
 
 import numpy as np
 
